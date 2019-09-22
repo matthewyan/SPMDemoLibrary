@@ -24,5 +24,6 @@ let package = Package(
         .testTarget(
             name: "SPMDemoLibraryTests",
             dependencies: ["SPMDemoLibrary"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
